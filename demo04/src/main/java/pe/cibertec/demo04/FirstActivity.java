@@ -50,6 +50,7 @@ public class FirstActivity extends AppCompatActivity {
                         personaOld.setPhone(persona.getPhone());
 
                         mLVFirstAdapter.notifyDataSetChanged();
+                        break;
                     }
                 }
             }
